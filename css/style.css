@@ -937,6 +937,7 @@ nav {
         margin-top: 24px;
     }
     nav{
+        width: 90%;
         justify-content: center;
     }
     .main-menu{
