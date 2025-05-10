@@ -1,0 +1,169 @@
+.see-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0 70px 0;
+}
+.see-hero2 {
+    padding: 100px 0 0 0;
+}
+
+.seo-left h1 {
+    font-size: 54px;
+    font-weight: 500;
+    color: #fcfcfc;
+}
+.seo-left p {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fcfcfc;
+    padding: 30px 0 0 0;
+    line-height: 28px;
+}
+.seo-left2 p {
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 26px;
+    width: 90%;
+    padding: 10px 0 50px 0;
+}
+.seo-left {
+    width: 64%;
+}
+.seo-right {
+    width: 40%;
+    text-align: end;
+}
+.seo-right img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.cards {
+    width: 27%;
+    display: flex;
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.card-img {
+    width: 110px;
+    margin: 0 0 20px 0;
+}
+.cards-main {
+    margin: 80px 0 0 0;
+}
+.card-img img {
+    animation: spin 4s linear infinite;
+    display: block;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.cards h1 {
+    font-size: 27px;
+    font-weight: 500;
+    margin: 0;
+}
+.cards p {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    line-height: 26px;
+    margin: 16px 0;
+    min-height: 130px;
+    max-height: 130px;
+}
+.cards a {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--accent-color);
+}
+.seo-left h2 {
+    font-size: 45px;
+    color: white;
+}
+.seo-left h2::after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background-color: #feff03;
+    margin: 20px 0;
+}
+.seo-left2 p {
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 38px;
+    padding: 10px 0 50px 0;
+}
+@media (max-width: 1100px){
+    .seo-left h1 {
+       font-size: 38px;
+   }
+   .seo-left h2{
+       font-size: 32px;
+   }
+   .seo-left p {
+       font-size: 20px;
+   }
+   .we-help h1{
+       width: 100%;
+   }
+}
+@media (max-width: 800px) {
+    .seo-left p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .cards{
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 600px){
+    .see-hero{
+        flex-direction: column-reverse;
+    }
+    .seo-left,
+    .seo-right {
+        width: 100%;
+        text-align: center;
+    }
+    .seo-left h2::after{
+        margin: 20px auto;
+    }
+    .seo-left p {
+        width: 100%;
+    }
+    .cta-btn{
+        margin: 0 auto;
+    }
+    .see-hero2{
+        flex-direction: column;
+    }
+    .cards{
+        width: 100%;
+        margin: 0 ;
+    }
+ 
+.cards h1 {
+    font-size: 23px;
+}
+}
+@media (max-width: 330px){
+    .cards p{
+       
+    min-height: 150px;
+    max-height: 150px;
+    }
+}

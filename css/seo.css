@@ -1,0 +1,123 @@
+.see-hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0 30px 0;
+}
+.see-hero2{
+    padding: 100px 0 0 0;
+}
+.seo-left h2,
+.seo-left h1{
+    font-size: 58px;
+    font-weight: 500;
+    color: #fcfcfc;
+}
+.seo-left h2{
+    font-size: 45px;
+}
+.seo-left p{
+    font-size: 22px;
+    font-weight: 500;
+    color: #fcfcfc;
+    padding: 20px 0 0 0;
+    line-height: 28px;
+}
+.seo-left2 p{
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 26px;
+    width: 90%;
+    padding: 10px 0 50px 0;
+}
+.seo-left{
+    width: 58%;
+}
+.seo-right{
+    width: 40%;
+}
+.seo-right img{
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+}
+.we-help h1{
+    width: 90%;
+    font-size: 45px;
+    margin: 30px auto 35px auto;
+}
+.we-help .experience{
+    font-size: 22px;
+    font-weight: 300;
+    width: 78%;
+    line-height: 30px;
+    font-family: "Wix Madefor Display", sans-serif;
+}
+.seo-left h2::after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background-color: #feff03;
+    margin: 20px 0;
+}
+@media (max-width: 1100px){
+     .seo-left h1 {
+        font-size: 38px;
+    }
+    .seo-left h2{
+        font-size: 32px;
+    }
+    .seo-left p {
+        font-size: 20px;
+    }
+    .we-help h1{
+        width: 100%;
+    }
+    .seo-right img{
+        width: 70%;
+        height: 70%;
+    }
+}
+@media (max-width: 900px){
+    .seo-left h1 {
+       font-size: 26px;
+   }
+   .seo-left h2{
+       font-size: 32px;
+   }
+   .seo-left p {
+       font-size: 18px;
+   }
+   .we-help h1{
+       width: 100%;
+       font-size: 30px;
+   }
+   .we-help .experience {
+    font-size: 20px;
+    width: 100%;
+}
+}
+@media (max-width: 800px){
+    .see-hero{
+        flex-direction: column-reverse;
+    }
+    .seo-left,
+    .seo-right {
+        width: 100%;
+        text-align: center;
+    }
+    .seo-left h2::after{
+        margin: 20px auto;
+    }
+    .seo-left p {
+        width: 100%;
+    }
+    .cta-btn{
+        margin: 0 auto;
+    }
+    .see-hero2{
+        padding: 50px 0 0 0;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,80 @@
+.see-hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.seo-left h2{
+    font-size: 65px;
+    color: white;
+}
+
+.seo-left2 p {
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 38px;
+    padding: 10px 0 50px 0;
+    color: white;
+}
+
+.seo-left{
+    width: 70%;
+}
+.seo-right{
+    width: 30%;
+    text-align: end;
+}
+.seo-right img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.cta-btn-3 {
+    margin: 0 auto;
+}
+.cta-btn-2 a {
+    padding: 14px 40px;
+}
+@media (max-width: 1100px){
+    .seo-left h1 {
+       font-size: 38px;
+   }
+   .seo-left h2{
+       font-size: 32px;
+   }
+   .seo-left p {
+       font-size: 20px;
+   }
+   .we-help h1{
+       width: 100%;
+   }
+}
+@media (max-width: 800px) {
+    .seo-left p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+}
+@media (max-width: 600px){
+    .see-hero{
+        flex-direction: column-reverse;
+    }
+    .seo-left,
+    .seo-right {
+        width: 100%;
+        text-align: center;
+    }
+    .seo-left h2::after{
+        margin: 20px auto;
+    }
+    .seo-left p {
+        width: 100%;
+    }
+    .cta-btn{
+        margin: 0 auto;
+    }
+    .see-hero2{
+        flex-direction: column;
+    }
+}
